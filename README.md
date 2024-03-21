@@ -26,8 +26,7 @@
   - 이를 통해 게임 개발 과정에서의 요구사항 변화에 빠르게 대응하고, 게임의 확장성 및 유지보수성 향상.
 
 ### 주요 소스코드 구현
-- [CGameUser.cs](https://github.com/eliotjang/Online_Game_Server_with_TCP_Socket/blob/main/viruswar/server/GameServer/CGameUser.cs)
-  - 게임에 접속한 유저를 나타내는 클래스
+- 게임에 접속한 유저를 나타내는 클래스([CGameUser.cs](https://github.com/eliotjang/Online_Game_Server_with_TCP_Socket/blob/main/viruswar/server/GameServer/CGameUser.cs))
 - [CGameServer.cs](https://github.com/eliotjang/Online_Game_Server_with_TCP_Socket/blob/main/viruswar/server/GameServer/CGameServer.cs)
   - 게임 서버 객체
 - [CGameRoomManager.cs](https://github.com/eliotjang/Online_Game_Server_with_TCP_Socket/blob/main/viruswar/server/GameServer/CGameRoomManager.cs)
