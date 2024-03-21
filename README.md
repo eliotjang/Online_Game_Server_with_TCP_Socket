@@ -26,13 +26,10 @@
   - 이를 통해 게임 개발 과정에서의 요구사항 변화에 빠르게 대응하고, 게임의 확장성 및 유지보수성 향상.
 
 ### 주요 소스코드 구현
-- 게임에 접속한 유저를 나타내는 클래스([CGameUser.cs](https://github.com/eliotjang/Online_Game_Server_with_TCP_Socket/blob/main/viruswar/server/GameServer/CGameUser.cs))
-- [CGameServer.cs](https://github.com/eliotjang/Online_Game_Server_with_TCP_Socket/blob/main/viruswar/server/GameServer/CGameServer.cs)
-  - 게임 서버 객체
-- [CGameRoomManager.cs](https://github.com/eliotjang/Online_Game_Server_with_TCP_Socket/blob/main/viruswar/server/GameServer/CGameRoomManager.cs)
-  - 게임 방을 관리하는 매니저
-- [CGameRoom.cs](https://github.com/eliotjang/Online_Game_Server_with_TCP_Socket/blob/main/viruswar/server/GameServer/CGameRoom.cs)
-  - 게임 로직이 구현되어 있는 게임 방
+- 게임에 접속한 유저를 나타내는 클래스 [CGameUser.cs](https://github.com/eliotjang/Online_Game_Server_with_TCP_Socket/blob/main/viruswar/server/GameServer/CGameUser.cs)
+- 게임 서버 객체 [CGameServer.cs](https://github.com/eliotjang/Online_Game_Server_with_TCP_Socket/blob/main/viruswar/server/GameServer/CGameServer.cs)
+- 게임 방을 관리하는 매니저 [CGameRoomManager.cs](https://github.com/eliotjang/Online_Game_Server_with_TCP_Socket/blob/main/viruswar/server/GameServer/CGameRoomManager.cs)
+- 게임 로직이 구현되어 있는 게임 방 [CGameRoom.cs](https://github.com/eliotjang/Online_Game_Server_with_TCP_Socket/blob/main/viruswar/server/GameServer/CGameRoom.cs)
 
 ### 참고자료
 - [유니티 개발자를 위한 C#으로 온라인 게임 서버 만들기, 이석현 저](https://www.hanbit.co.kr/store/books/look.php?p_code=E6015792502)
